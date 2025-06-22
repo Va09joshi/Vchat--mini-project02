@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chat application</title>
+</head>
+
+<body>
+    <h1 class="title"> VChat </h1>
+    <div class="main">
+        <div class="name">
+            <span>
+                <i class="far fa-user"></i>
+                <input type="text" id="name-input" class="name-input" value="Unknown" maxlength="20" />
+            </span>
+        </div>
+        <ul class="message-container" id="message-container">
+            <li class="message-left">
+                <p class="message">
+                    helllo!!!!
+                    <span>bluebird 26 july 10:40</span>
+                </p>
+            </li>
+
+            <li class="message-right">
+                <p class="message">
+                    helllo!!!!
+                    <span>bluebird 26 july 10:40</span>
+                </p>
+            </li>
+            <li class="message-feedback">
+                <p class="feedback" id="feedback">
+                    vaibhav is typing a message
+                </p>
+            </li>
+        </ul>
+        <form class="message-form" id="message-form">
+            <input type="text" name="message" id="message-input" class="message-input">
+            <div class="v-divider">
+                <button type="submit" class="send-button">
+                    send
+                    <span><i class="fas fa-paper-plane"></i></span>
+                </button>
+            </div>
+        </form>
+
+
+    </div>
+
+    <h3 class="clients-total" id="clients-total">Total client : 2</h3>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"
+  integrity="sha512-QoJS4DOhdmG8kbbHkxmB/rtPdN62cGWXAdAFWWJPvUFF1/zxcPSdAnn4HhYZSIlVoLVEJ0LesfNlusgm2bPfnA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer">
+</script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
