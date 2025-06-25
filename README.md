@@ -55,9 +55,9 @@ Multiple users can join the same room and see messages appear instantly—no pag
   </li>
   <li>Each client listens and appends new chat bubbles instantly.</li>
 </ol>
-
+<pre><code>
 <h2>🚀 Getting Started</h2>
-<pre><code># 1. Clone
+# 1. Clone
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
