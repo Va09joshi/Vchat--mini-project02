@@ -28,8 +28,9 @@ Multiple users can join the same room and see messages appear instantly—no pag
 
 <h2>📸 Screenshots</h2>
 <div class="screens center">
-<img src="https://github.com/user-attachments/assets/961f425f-9563-41eb-a10d-cf204db48339" alt="User 1" width="300">
-<img src="https://github.com/user-attachments/assets/9036a182-68dc-407d-89d9-85edd9847526" alt="User 2" width="300">
+<img src="https://github.com/user-attachments/assets/961f425f-9563-41eb-a10d-cf204db48339" alt="User 1" style="max-width: 45%; margin: 5px;">
+<img src="https://github.com/user-attachments/assets/9036a182-68dc-407d-89d9-85edd9847526" alt="User 2" style="max-width: 45%; margin: 5px;">
+
 
 </div>
 
