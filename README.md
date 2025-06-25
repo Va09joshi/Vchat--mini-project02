@@ -1,9 +1,3 @@
-
----
-
-## 🌐 HTML version
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
