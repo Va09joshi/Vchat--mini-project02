@@ -5,7 +5,8 @@
 Multiple users can join the same room and see messages appear instantly—no page refreshes required.</p>
 
 <p class="center">
-  <img src="https://github.com/user-attachments/assets/961f425f-9563-41eb-a10d-cf204db48339" alt="Chat demo">
+<img src="https://github.com/user-attachments/assets/961f425f-9563-41eb-a10d-cf204db48339" alt="Chat demo" style="width: 280px; border-radius: 8px;">
+
 </p>
 
 <p class="badges center">
@@ -27,8 +28,9 @@ Multiple users can join the same room and see messages appear instantly—no pag
 
 <h2>📸 Screenshots</h2>
 <div class="screens center">
-  <img src="https://github.com/user-attachments/assets/961f425f-9563-41eb-a10d-cf204db48339" alt="User 1">
-  <img src="https://github.com/user-attachments/assets/9036a182-68dc-407d-89d9-85edd9847526" alt="User 2">
+<img src="https://github.com/user-attachments/assets/961f425f-9563-41eb-a10d-cf204db48339" alt="User 1" width="300">
+<img src="https://github.com/user-attachments/assets/9036a182-68dc-407d-89d9-85edd9847526" alt="User 2" width="300">
+
 </div>
 
 <h2>🛠️ Tech Stack</h2>
@@ -62,8 +64,7 @@ cd your-repo
 npm install
 
 # 3. Run (development)
-npm run dev     # nodemon
-
+npm run dev    
 </code></pre>
 <p>Open <strong>http://localhost:3000</strong> in two tabs or devices to watch real-time magic happen.</p>
 
