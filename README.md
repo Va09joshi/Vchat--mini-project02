@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Real-Time Chat Web App – README</title>
-  <style>
-    body{font-family:system-ui,Arial,sans-serif;margin:0;padding:2rem;line-height:1.6;color:#333}
-    h1,h2,h3{margin-top:2rem}
-    table{border-collapse:collapse;width:100%}
-    table th,table td{border:1px solid #ddd;padding:.6rem;text-align:left}
-    code{background:#f6f8fa;padding:.2rem .4rem;border-radius:4px}
-    pre{background:#f6f8fa;padding:1rem;border-radius:6px;overflow:auto}
-    .badges img{margin-right:.4rem}
-    .center{text-align:center}
-    .screens img{max-width:45%;margin:.5rem}
-  </style>
-</head>
-<body>
+
 
 <h1>💬 Real-Time Chat Web App</h1>
 <p>A lightweight yet powerful chat platform built with <strong>Node.js, Express, and Socket.IO</strong>.<br>
@@ -81,8 +64,6 @@ npm install
 # 3. Run (development)
 npm run dev     # nodemon
 
-# Or, for production
-npm start
 </code></pre>
 <p>Open <strong>http://localhost:3000</strong> in two tabs or devices to watch real-time magic happen.</p>
 
@@ -99,7 +80,6 @@ npm start
 <p>This project is licensed under the <strong>MIT License</strong> – do with it as you wish.</p>
 
 <hr>
-<p class="center">Made with ❤️ and WebSockets</p>
 
 </body>
 </html>
